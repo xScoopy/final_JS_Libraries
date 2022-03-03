@@ -1,0 +1,24 @@
+{
+  "name": "final_js_libraries",
+  "version": "1.0.0",
+  "description": "final challenges for js libraries course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xScoopy/final_JS_Libraries.git"
+  },
+  "keywords": [],
+  "author": "Jeremiah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xScoopy/final_JS_Libraries/issues"
+  },
+  "homepage": "https://github.com/xScoopy/final_JS_Libraries#readme",
+  "dependencies": {
+    "datelibjs": "^1.0.1",
+    "scoopy-str-helper": "^1.0.1"
+  }
+}
