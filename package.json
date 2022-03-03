@@ -4,7 +4,7 @@
   "description": "final challenges for js libraries course",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,8 @@
   "homepage": "https://github.com/xScoopy/final_JS_Libraries#readme",
   "dependencies": {
     "datelibjs": "^1.0.1",
+    "javascript-time-ago": "^2.3.13",
+    "jest": "^27.5.1",
     "scoopy-str-helper": "^1.0.1"
   }
 }
