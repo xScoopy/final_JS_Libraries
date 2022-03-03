@@ -49,9 +49,13 @@ const formatPhone = (phoneNumber) => {
   return `Phone: (${areaCode})` + ` ${firstThree}-${lastFour}`;
 };
 
+// capitalize city
+
+const getCity = (city) => strHelp.capitalize(city);
+
 // include car make/model
 
-const constructCarInfo = (carMake, carModel) => `${strHelp.capitalize(carMake)} ${strHelp.capitalize(carModel)}`;
+const constructCarInfo = (carMake, carModel) => `${strHelp.capitalize(carMake)} ${strHelp.capitalizeWords(carModel)}`;
 
 // print all data to console
 const printData = (data) => {
@@ -61,6 +65,8 @@ const printData = (data) => {
     console.log(constructPurchasedDate(data[i].purchased));
     console.log(constructLastPayment(data[i].lastpayment));
     console.log(formatPhone(data[i].phone));
+    console.log(`City: ${getCity(data[i].city)}`);
+    console.log('\n');
   }
 };
 printData(myData);
