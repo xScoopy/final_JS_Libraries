@@ -19,6 +19,9 @@
   "homepage": "https://github.com/xScoopy/final_JS_Libraries#readme",
   "dependencies": {
     "datelibjs": "^1.0.1",
+    "eslint": "^8.10.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
     "javascript-time-ago": "^2.3.13",
     "jest": "^27.5.1",
     "scoopy-str-helper": "^1.0.1"
